@@ -153,10 +153,11 @@ span{
 		display: block;
 	}
 section {
-  width: 54%;
-  height: 80%;
+	position: relative;
+	left: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 30px;
 
 }
@@ -202,5 +203,10 @@ section {
     color: white;
     padding: 20px;
   }
+
+.video{
+	position:relative;
+	left: 500px;
+}
  
     
